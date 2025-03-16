@@ -1,6 +1,7 @@
 import React from "react";
 import Input from "./components/Input";
 import Button from "./components/Button";
+import Table from "./components/Table";
 
 export default function App() {
   return (
@@ -21,7 +22,9 @@ export default function App() {
           <Button>Submit</Button>
         </section>
 
-        <section className="table-section">TABLE</section>
+        <section className="table-section">
+          <Table></Table>
+        </section>
       </main>
     </>
   );
