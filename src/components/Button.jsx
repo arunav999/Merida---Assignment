@@ -1,9 +1,11 @@
 import React from "react";
 
-function Button() {
+function Button({ children, ...props }) {
   return (
     <>
-      <button className="reButton">Anything</button>
+      <button className="reButton" {...props}>
+        {children}
+      </button>
     </>
   );
 }

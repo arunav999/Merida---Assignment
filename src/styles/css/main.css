@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 *,
 *::after,
 *::before {
@@ -9,6 +10,22 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+}
+
+.reButton {
+  margin: 11.2rem;
+  padding: 1.2rem 2.2rem;
+  border: none;
+  outline: none;
+  font-family: "Karla";
+  font-size: 2.2rem;
+  color: #ffffff;
+  background-color: #cc621b;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.reButton:hover {
+  background-color: rgba(204, 98, 27, 0.9254901961);
 }
 
 /*# sourceMappingURL=main.css.map */
