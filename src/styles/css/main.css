@@ -65,4 +65,46 @@ html {
   font-size: 2.2rem;
 }
 
+.table-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-content: center;
+}
+
+.table {
+  font-family: "Rubik";
+  font-size: 1.6rem;
+  border-collapse: collapse;
+  margin: 8.8rem 0;
+  min-width: 40rem;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.15);
+}
+.table__head {
+  font-family: "Big Shoulders Stencil";
+  font-size: 2.4rem;
+  font-weight: 900;
+  text-align: left;
+  background-color: #be1313;
+  color: #ffffff;
+}
+.table__body tr {
+  border-bottom: 1px solid #dddddd;
+}
+.table__body tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+.table__body tr:last-of-type {
+  border-bottom: 2px solid #be1313;
+}
+.table th,
+.table td {
+  padding: 1.2rem 1.5rem;
+  text-align: center;
+  max-width: 20rem;
+}
+
 /*# sourceMappingURL=main.css.map */
