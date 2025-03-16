@@ -23,6 +23,7 @@ export default function App() {
         </section>
 
         <section className="table-section">
+          <p>Add a Task</p>
           <Table></Table>
         </section>
       </main>

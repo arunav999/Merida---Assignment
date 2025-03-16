@@ -55,6 +55,14 @@ html {
   justify-content: flex-start;
   align-items: center;
 }
+.input-container__input, .input-container__textarea {
+  padding: 0.8rem;
+  font-size: 1.6rem;
+  border: none;
+  outline: none;
+  background-color: #f3f3f3;
+  border-radius: 2px;
+}
 .input-container__input {
   height: 50%;
   display: flex;
@@ -62,7 +70,12 @@ html {
 }
 .input-container__textarea {
   height: 100%;
-  font-size: 2.2rem;
+}
+.input-container input[type=date] {
+  width: min-content;
+}
+.input-container__input:focus, .input-container__textarea:focus {
+  border: 2px solid #ff8a3c;
 }
 
 .table-section {
@@ -71,10 +84,14 @@ html {
   grid-template-rows: 1fr;
   justify-items: center;
   align-content: center;
+  font-family: "Rubik";
+}
+.table-section p {
+  font-size: 2.2rem;
+  margin-top: 2.5rem;
 }
 
 .table {
-  font-family: "Rubik";
   font-size: 1.6rem;
   border-collapse: collapse;
   margin: 8.8rem 0;

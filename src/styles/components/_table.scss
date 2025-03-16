@@ -6,10 +6,15 @@
   grid-template-rows: 1fr;
   justify-items: center;
   align-content: center;
+  font-family: $font-primary;
+
+  p{
+    font-size: 2.2rem;
+    margin-top: 2.5rem;
+  }
 }
 
 .table {
-  font-family: $font-primary;
   font-size: 1.6rem;
   border-collapse: collapse;
   margin: 8.8rem 0;

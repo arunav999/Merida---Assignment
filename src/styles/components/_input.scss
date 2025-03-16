@@ -31,6 +31,16 @@
     align-items: center;
   }
 
+  &__input,
+  &__textarea {
+    padding: 0.8rem;
+    font-size: 1.6rem;
+    border: none;
+    outline: none;
+    background-color: $grey-light--1;
+    border-radius: 2px;
+  }
+
   &__input {
     height: 50%;
 
@@ -40,7 +50,14 @@
 
   &__textarea {
     height: 100%;
+  }
 
-    font-size: 2.2rem;
+  input[type="date"] {
+    width: min-content;
+  }
+
+  &__input:focus,
+  &__textarea:focus {
+    border: 2px solid $focus;
   }
 }
